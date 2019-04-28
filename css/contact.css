@@ -1,0 +1,101 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: 100%;
+}
+
+.head {
+	height: 6vh;
+	background-image: url(../images/flag.png);
+	background-size: contain;
+	background-repeat: -repeat-x;
+}
+
+.menu {
+		margin-left: auto;
+		margin-right: auto;
+}
+
+ul {
+	height: 5vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+	padding: 0px;
+}
+
+li {
+ padding: 13px;
+ border: 3px white solid;
+ text-align: center;
+ font-family: Lucida Handwriting;
+ font-size: 20px;
+ list-style: none;
+}
+
+ul li:hover {
+ background: #fff;
+ border: 2px pink dotted;
+ transition: all .10s east-out;
+}
+
+a {
+ text-decoration: none;
+ font-size: 70px;
+ font-family: Castellar;
+}
+
+.details {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	margin: 10px auto;
+	border: 6px white solid;
+	height: 50vh;
+	width: 45vw;
+}
+
+#uno {
+	border: 3px black solid;
+	background-image: url(../images/location.png);
+	background-size: 8%;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 70px;
+}
+
+#due {
+	border: 3px black solid;
+	background-image: url(../images/mail.png);
+	background-size: 8%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right: 10px;
+	text-align: right;
+}
+
+#tre {
+	border: 3px black solid;
+	background-image: url(../images/phone.png);
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 70px;
+}
+
+#quattro {
+	border: 3px black solid;
+	background-image: url(../images/time.png);
+	background-size: 10%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-right: 30px;
+	text-align: right;
+}
+
+.footer{
+	text-align: right;
+	font-size: 25px;
+	padding-right: 10px;
+}

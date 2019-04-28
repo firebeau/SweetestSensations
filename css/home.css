@@ -1,0 +1,118 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size:160%;
+}
+
+.head {
+	height: 6vh;
+	background-image: url(../images/flag.png);
+	background-size: contain;
+	background-repeat: -repeat-x;
+}
+
+h4 {
+	display: inline;
+	font-family: Castellar;
+	font-size: 60px;
+}
+ul {
+	height: 5vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+	padding: 0px;
+}
+
+li {
+ padding: 13px;
+ border: 3px white solid;
+ text-align: center;
+ font-family: Lucida Handwriting;
+ font-size: 20px;
+ list-style: none;
+ margin: 0px auto;
+}
+
+ul li:hover {
+ background: #fff;
+ border: 2px pink dotted;
+ transition: all .10s east-out;
+}
+
+a {
+ text-decoration: none;
+ font-size: 70px;
+ font-family: Castellar;
+}
+
+.image:hover {
+	background-image: url(../images/taste.png);
+	transition: all .10 auto;
+	background-size: 90%;
+}
+
+.image {
+	background-image: url(../images/img.png);
+	background-position: center;
+	background-size: 90%;
+	height: 60vh;
+	width: 70vw;
+	border: 2px black solid;
+	margin: 40px auto;
+}
+
+.context {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 00px;
+	padding: 0;
+	border: 3px black solid;
+}
+
+.text {
+	font-size: 35px;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.images {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	border: 3px black solid;
+}
+
+.hana {
+	height: 30vh;
+	border: 2px solid black;
+	background-image: url(../images/eeeaa.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.dul {
+	height: 30vh;
+	border: 2px solid black;
+	background-image: url(../images/ba.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.seht {
+	height: 30vh;
+	border: 2px solid black;
+	background-image: url(../images/w.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.neht {
+	height: 30vh;
+	border: 2px solid black;
+	background-image: url(../images/mac.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}

@@ -1,0 +1,542 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size:130%;
+}
+
+.head {
+	height: 6vh;
+	background-image: url(../images/flag.png);
+	background-size: contain;
+	background-repeat: -repeat-x;
+}
+
+.menu {
+		margin-left: auto;
+		margin-right: auto;
+}
+
+ul {
+	height: 5vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+	padding: 0px;
+}
+
+li {
+	padding: 13px;
+	border: 3px white solid;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	font-size: 20px;
+	list-style: none;
+}
+
+ul li:hover {
+ background: #fff;
+ border: 2px pink dotted;
+ transition: all .10s east-out;
+}
+
+a {
+ text-decoration: none;
+ font-size: 50px;
+ font-family: Castellar;
+}
+
+.product {
+	border: 3px white solid;
+	height: 470vh;
+	margin: 5px;
+}
+
+.ichi {
+	border: 3px black solid;
+	height: 37vh;
+	margin: 2px;
+}
+
+.ni {
+		border: 3px black solid;
+		height: 66vh;
+		margin: 2px;
+}
+
+.san {
+	border: 3px black solid;
+	height: 94vh;
+	margin: 2px;
+}
+
+ol {
+	height: 25.8vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+	padding: 5px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#z {
+	border: 3px black solid;
+	background-image: url(../images/waaaa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#y {
+	border: 3px black solid;
+	background-image: url(../images/waaa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#x {
+	border: 3px black solid;
+	background-image: url(../images/waa.jpg);
+	background-size: 116%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#w {
+	border: 3px black solid;
+	background-image: url(../images/waff.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#v {
+	border: 3px black solid;
+	background-image: url(../images/wa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#u {
+	border: 3px black solid;
+	background-image: url(../images/llc.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#t {
+	border: 3px black solid;
+	background-image: url(../images/ll.jpeg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#s {
+	border: 3px black solid;
+	background-image: url(../images/l.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#r {
+	border: 3px black solid;
+	background-image: url(../images/lla.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#q {
+	border: 3px black solid;
+	background-image: url(../images/llab.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#p {
+	border: 3px black solid;
+	background-image: url(../images/macaron.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#o {
+	border: 3px black solid;
+	background-image: url(../images/maca.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#n {
+	border: 3px black solid;
+	background-image: url(../images/ma.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#m {
+	border: 3px black solid;
+	background-image: url(../images/macar.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#l {
+	border: 3px black solid;
+	background-image: url(../images/macc.jpg);
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#k {
+	border: 3px black solid;
+	background-image: url(../images/kkk.jpg);
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#j {
+	border: 3px black solid;
+	background-image: url(../images/rolll.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#i {
+	border: 3px black solid;
+	background-image: url(../images/kk.jpg);
+	background-size: 100%;
+	background-position: topr;
+	background-repeat: no-repeat;
+}
+#h {
+	border: 3px black solid;
+	background-image: url(../images/j.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#g {
+	border: 3px black solid;
+	background-image: url(../images/k.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#f {
+	border: 3px black solid;
+	background-image: url(../images/brownnnn.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#e {
+	border: 3px black solid;
+	background-image: url(../images/brown.jpg);
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#d {
+	border: 3px black solid;
+	background-image: url(../images/brownoo.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#c {
+	border: 3px black solid;
+	background-image: url(../images/browno.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#b {
+	border: 3px black solid;
+	background-image: url(../images/brownn.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#B {
+	border: 3px black solid;
+	background-image: url(../images/eaa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#C {
+	border: 3px black solid;
+	background-image: url(../images/eeeaa.jpg);
+	background-size: 140%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#D {
+	border: 3px black solid;
+	background-image: url(../images/h.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#E {
+	border: 3px black solid;
+	background-image: url(../images/3.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#F {
+	border: 3px black solid;
+	background-image: url(../images/4.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#G {
+	border: 3px black solid;
+	background-image: url(../images/milkkshake.jpg);
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#H {
+	border: 3px black solid;
+	background-image: url(../images/milkshake.jpg);
+	background-size: 120%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#I {
+	border: 3px black solid;
+	background-image: url(../images/Milkshake.png);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#J {
+	border: 3px black solid;
+	background-image: url(../images/milkshakea.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#K {
+	border: 3px black solid;
+	background-image: url(../images/milkshakecc.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#L {
+	border: 3px black solid;
+	background-image: url(../images/milkshakeu.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#M {
+	border: 3px black solid;
+	background-image: url(../images/milkshakestap.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#N {
+	border: 3px black solid;
+	background-image: url(../images/mikshaketappps.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#O {
+	border: 3px black solid;
+	background-image: url(../images/milkshaketapss.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#P{
+	border: 3px black solid;
+	background-image: url(../images/milkshaketaaps.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#Q{
+	border: 3px black solid;
+	background-image: url(../images/ebb.jpg);
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#R{
+	border: 3px black solid;
+	background-image: url(../images/ee.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#S{
+	border: 3px black solid;
+	background-image: url(../images/pa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#T{
+	border: 3px black solid;
+	background-image: url(../images/hh.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#U{
+	border: 3px black solid;
+	background-image: url(../images/ea.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#V{
+	border: 3px black solid;
+	background-image: url(../images/ecc.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#W{
+	border: 3px black solid;
+	background-image: url(../images/hhhh.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#X{
+	border: 3px black solid;
+	background-image: url(../images/pastrycake.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#Y{
+	border: 3px black solid;
+	background-image: url(../images/eb.jpg);
+	background-size: 130%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#Z{
+	border: 3px black solid;
+	background-image: url(../images/ec.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#aa{
+	border: 3px black solid;
+	background-image: url(../images/b4aa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ab{
+	border: 3px black solid;
+	background-image: url(../images/b5aa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ac{
+	border: 3px black solid;
+	background-image: url(../images/ba.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ad{
+	border: 3px black solid;
+	background-image: url(../images/b5a.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ae{
+	border: 3px black solid;
+	background-image: url(../images/b4aaa.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#af{
+	border: 3px black solid;
+	background-image: url(../images/b.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ag{
+	border: 3px black solid;
+	background-image: url(../images/b3a.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ah{
+	border: 3px black solid;
+	background-image: url(../images/b1aa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ai{
+	border: 3px black solid;
+	background-image: url(../images/b3aa.jpeg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#aj{
+	border: 3px black solid;
+	background-image: url(../images/b1aaa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ak{
+	border: 3px black solid;
+	background-image: url(../images/b2aa.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#al{
+	border: 3px black solid;
+	background-image: url(../images/b2aaa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#am{
+	border: 3px black solid;
+	background-image: url(../images/b1.jpg);
+	background-size: 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#an{
+	border: 3px black solid;
+	background-image: url(../images/b7.jpg);
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ao{
+	border: 3px black solid;
+	background-image: url(../images/b2aaaa.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
